@@ -1,0 +1,35 @@
+.button{
+    height: 40px;
+    width: 256px;
+    display: flex;
+    background-color: rgba(23,26,32,0.8);
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: .85;
+    margin: 10px;
+    padding: 0;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button_white{
+    height: 40px;
+    width: 256px;
+    display: flex;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: .85;
+    margin: 10px;
+}
+
+.button_white a{
+    text-decoration: none;
+    color: black;
+}
+
