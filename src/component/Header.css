@@ -1,12 +1,13 @@
 .header{
     display: flex;
-    margin: 15px;
+    margin: 5px;
     background:none;
     position: fixed;
     background-color: transparent;
     z-index: 100;
     min-width: 100vw;
     top: 0;
+    font-size: 15px;
 }
 
 .header{
@@ -15,6 +16,7 @@
 }
 
 .header-logo img{
+    margin-left: 15px;
     height: 14px;
     width: 100px;
 }
@@ -29,7 +31,8 @@
 }
 
 .header-center p{
-    margin: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header-right{

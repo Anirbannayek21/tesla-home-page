@@ -1,8 +1,8 @@
 import React from 'react'
 import Button from'./Button'
-import Down from '../assets/chevron-down-solid.svg'
+import Down from '../assets/expand_more.svg'
 import './Item.css'
-function Item({title,description,backgroundImg,leftButton,leftButtonLink,twoButton,rightButton,rightButtonLink,first}) {
+function Item({title,description,backgroundImg,leftButton,leftButtonLink,twoButton,rightButton,rightButtonLink,first,last}) {
     return (
         <div className='item' style={{
             backgroundImage:'url('+backgroundImg+')'
@@ -25,6 +25,18 @@ function Item({title,description,backgroundImg,leftButton,leftButtonLink,twoButt
                     {first &&(
                         <div className="down">
                             <img src={Down} alt="tesla-logo"/>
+                        </div>
+                    )}
+                    {last &&(
+                        <div className="copyright">
+                            <a>Tesla © 2021</a>
+                            <a href="/">Privacy & Legal</a>
+                            <a href="/">Contact</a>
+                            <a href="/">Careers</a>
+                            <a href="/">Get Newsletter</a>
+                            <a href="/">News</a>
+                            <a href="/">Forums</a>
+                            <a href="/">Location</a>
                         </div>
                     )}
                 </div>

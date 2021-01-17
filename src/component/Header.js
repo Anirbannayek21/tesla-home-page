@@ -18,7 +18,7 @@ function header() {
             </div>
             <div className="header-right">
                 <p>SHOP</p>
-                <p>TESLA ACOUNT</p>
+                <p>TESLA ACCOUNT</p>
             </div>
         </div>
     )
